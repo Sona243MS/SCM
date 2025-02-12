@@ -8,5 +8,7 @@ int main()
 	printf("Subtract= %d",sub);
 	int mul=a*b;
 	printf("Multiplication= %d",mul);
+	int div=a/b;
+	printf("Division= %d",div);
 	return 0;
 }
