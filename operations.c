@@ -6,5 +6,7 @@ int main()
 	printf("Sum= %d",add);
 	int sub=a-b;
 	printf("Subtract= %d",sub);
+	int mul=a*b;
+	printf("Multiplication= %d",mul);
 	return 0;
 }
