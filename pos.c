@@ -16,6 +16,11 @@ int main()
 	{
 		printf("Number is zero %d",num);
 	}
+	for(int i=0;i<num;i++)
+	{
+		if(num%2==0)
+		{
+
 	return 0;
 
 }
