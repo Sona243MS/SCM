@@ -8,3 +8,20 @@ int main()
 	scanf("%d",&a);
 	printf("Enter b");
 	scanf("%d",&b);
+	switch(i)
+{
+case 1:
+{
+    if(a>b)
+        {
+printf("%d is maximum",a);
+    }
+   else
+{
+    printf("%d is maximum",b);
+}
+break;
+}
+	case 2:
+    {
+
