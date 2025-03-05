@@ -22,6 +22,11 @@ int main()
 		{
 			printf("Even number= %d",num);
 		}
+		else
+		{
+			printf("Odd number= %d",num);
+		}
+	}
 
 
 	return 0;
