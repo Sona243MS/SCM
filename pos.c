@@ -11,6 +11,11 @@ int main()
 	else if(num<0)
 	{
 		printf("Negative number %d",num);
+	}
+	else 
+	{
+		printf("Number is zero %d",num);
+	}
 	return 0;
 
 }
