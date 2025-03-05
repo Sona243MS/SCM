@@ -28,7 +28,9 @@ int main()
 		}
 	
 	}
-printf("Done");
+
+	printf("Done");
+	printf("Update");
 
 	return 0;
 
