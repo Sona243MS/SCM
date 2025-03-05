@@ -26,8 +26,9 @@ int main()
 		{
 			printf("Odd number= %d",num);
 		}
+	
 	}
-
+printf("Done");
 
 	return 0;
 
