@@ -20,6 +20,9 @@ int main()
 	{
 		if(num%2==0)
 		{
+			printf("Even number= %d",num);
+		}
+
 
 	return 0;
 
