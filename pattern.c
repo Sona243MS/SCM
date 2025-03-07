@@ -46,6 +46,8 @@ break;
     }
 break;
 }
+default:
+printf("INVALID INPUT");
 return 0;
 }
 
