@@ -1,7 +1,9 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-	int a,b,add,mult,div;
+	int a,b,add,mult,div,mod;
+	double pow;
 	printf("Enter first number ");
 	scanf("%d",&a);
 	printf("Enter second number");
@@ -14,5 +16,9 @@ int main()
 	printf("Multiplication= %d",mul);
 	div=a/b;
         printf("Division= %d",div);
+	mod=a%b;
+	printf("Remainder= %d",mod);
+	pow=pow(a,b);
+	printf("Power= %.1f",pow);
 	return 0;
 }
