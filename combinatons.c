@@ -8,6 +8,6 @@ for(int i=1;i<=num;i++)
 {
 fact*=i;
 }
-
+printf("Factorial of a number= %d", fact);
 return 0;
 }
