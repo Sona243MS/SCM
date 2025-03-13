@@ -25,4 +25,8 @@ else
 {
 	printf("Driver is not insured");
 }
+return 0;
+}
+
+
 
