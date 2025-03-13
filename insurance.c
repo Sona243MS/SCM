@@ -9,4 +9,12 @@ int main()
 	scanf("%c",&ge);
 	printf("Enter age:\n");
 	scanf("%d",&age);
+if(ms=='M')
+{
+	printf("The driver is insured");
+}
+else if(ge=='M' && age>30 && ms=='N')
+{
+	printf("Driver is insured");
+}
 
