@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	char ge,ms;
-	int age;
-	pritf("Enter marital status(M/N):\n");
-	scanf("%d",&ms);
-	:
+    int bs;
+    float da,hra,gs;
+    printf("Enter basic salary");
+    scanf("%d",&bs);
+    da=(bs*40)/100;
+    hra=(bs*20)/100;
+    
