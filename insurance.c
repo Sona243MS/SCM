@@ -11,10 +11,18 @@ int main()
 	scanf("%d",&age);
 if(ms=='M')
 {
-	printf("The driver is insured");
+	printf("Driver is insured");
 }
 else if(ge=='M' && age>30 && ms=='N')
 {
 	printf("Driver is insured");
+}
+else if(ge=='F' && age>25 && ms=='N')
+{
+	printf("Driver is insured");
+}
+else
+{
+	printf("Driver is not insured");
 }
 
