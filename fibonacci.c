@@ -5,4 +5,7 @@ int main()
 	printf("Enter n=");
 	scanf("%d",&n);
 	printf("Fibonacci Series= %d %d",num1,num2);
-	for(
+	for(int i=o;i<=n;i++)
+	{
+		t=num1+num2;
+		num1=num2;
