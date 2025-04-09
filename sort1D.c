@@ -26,3 +26,11 @@ int main()
             }
         }
     }
+	//printing the array elements 
+	 printf("\nArray elements after sorting:\n");
+    for (i = 0; i < n; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    return 0;
+}
