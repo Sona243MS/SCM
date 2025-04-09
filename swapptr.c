@@ -9,4 +9,7 @@ int main()
 	scanf("%d",&num2);
 	ptr1=&num1;
 	ptr2=&num2;
+	temp=*ptr1;
+	*ptr1=*ptr2;
+	*ptr2=temp;
 
