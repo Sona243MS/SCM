@@ -20,4 +20,12 @@ void sort2DArray(int rows, int cols, int arr[rows][cols]) {
         }
     }
 }
-
+// Function to print the 2D array
+void printArray(int rows, int cols, int arr[rows][cols]) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            printf("%3d ", arr[i][j]);
+        }
+        printf("\n");
+    }
+}
