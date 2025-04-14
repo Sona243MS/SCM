@@ -13,4 +13,12 @@ int fibonacci()
 	return 0;
 }
 
+int main()
+{
+	int n;
+	printf("Enter value of n");
+	scanf("%d",&n);
+	fibonacci();
+	return 0;
+}
 
