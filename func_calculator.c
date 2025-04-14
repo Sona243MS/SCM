@@ -1,4 +1,6 @@
 #include<stdio.h>
+
+//calculator function which adds,subtracts,multiplies and divides
 int calculator()
 {
     int a=10,b=5;
@@ -11,6 +13,7 @@ int calculator()
     return 0;
 }
 
+//main function where the user enters value of a and b
 int main()
 {
     int a,b;
