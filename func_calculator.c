@@ -11,3 +11,15 @@ int calculator()
     return 0;
 }
 
+int main()
+{
+    int a,b;
+    printf("Enter a=");
+    scanf("%d",&a);
+    printf("Enter b=");
+    scanf("%d",&b);
+    calculator();
+    return 0;
+}
+
+
